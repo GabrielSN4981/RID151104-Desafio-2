@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: "Inter", serif;
+}
+
+main {
+    background-color: #F2F2F2;
+    margin: 0 0 0 0;
+}
+
+:root {
+    --azul: #0c70f2;
+}
+
+nav {
+    color: white;
+    background-color: var(--azul);
+    display: flex;
+    flex-direction: row;
+}
+
+#h1-nav {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#dncWeather {
+    margin-left: 5rem;
+}
+
+nav>div>a {
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-right: 5rem;
+}
+
+section>div>h1 {
+    font-size: 2.3rem;
+    font-weight: 800;
+    margin-left: 3rem;
+}
+
+.anuncio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+}
+
+.section-img {
+    margin-left: 6rem;
+}
+
+#section-card {
+    display: flex;
+    justify-content: center;
+}
+
+#card-div {
+    margin-top: 10rem;
+    width: 50%;
+    padding: 6rem 6rem 4rem 6rem;
+    background-color: #fff;
+    border-radius: 2rem;
+}
+
+.div-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+form input {
+    border: 0;
+    border-radius: 10px;
+    height: 3rem;
+    font-size: 1rem;
+    background-color: #F2F2F2E5;
+    padding-left: 3%;
+    margin-top: 1rem;
+}
+
+label {
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+#label2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#button {
+    width: 100%;
+    background-color: var(--azul);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+    border: none;
+    font-weight: 700;
+    font-size: 1.4rem;
+    box-shadow: 0px 4px 12px rgba(38, 132, 252, 0.5);
+    cursor: pointer;
+    margin-top: 5rem;
+}
+
+#section-results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+#retangulo-cep {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.custom-table {
+    width: 60%;
+    border-collapse: collapse;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.custom-table th {
+    background-color: var(--azul);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.custom-table td {
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+#previsao {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 10rem 0;
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 1rem;
+    border-radius: 2rem;
+    border: 1px solid var(--azul);
+    font-weight: 700;
+}
+
+#footer {
+    font-size: 1.3rem;
+    font-weight: 600;
+    justify-content: flex-end;
+    padding-right: 2%;
+    padding-top: 1rem;
+}
